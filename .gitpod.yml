@@ -4,7 +4,6 @@ tasks:
       pip install -r requirements.txt
       npm i -g nodemon
       export PORT=3000
-      echo $PORT
     command: |
       nodemon app.py
 
